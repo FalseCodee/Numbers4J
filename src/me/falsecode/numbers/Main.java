@@ -21,7 +21,7 @@ public class Main {
                 "eighteen", "nineteen" };
         String[] tensArray = { "zero", "ten", "twenty", "thirty", "forty", "fifty",
                 "sixty", "seventy", "eighty", "ninety" };
-        String[] tensPower = {"hundred", "thousand", "million", "billion"};
+        String[] tensPower = {"hundred", "thousand", "million", "billion", "trillion"};
 
         if (number == 0) {
             return "zero";
