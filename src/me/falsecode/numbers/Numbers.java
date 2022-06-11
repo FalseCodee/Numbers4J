@@ -1018,42 +1018,82 @@ public enum Numbers {
     
     private boolean isOdd;
 
+    /**
+     * Get the int value of the number.
+     * @return The int value of the number.
+     */
     public Integer getIntValue() {
         return intValue;
     }
 
+    /**
+     * Set the int value of the number.
+     * @param intValue The new int number.
+     */
     public void setIntValue(Integer intValue) {
         this.intValue = intValue;
     }
 
+    /**
+     * Get the double value of the number.
+     * @return The double value of the number.
+     */
     public Double getDoubleValue() {
         return doubleValue;
     }
 
+    /**
+     * Set the double value of the number.
+     * @param doubleValue The new double number.
+     */
     public void setDoubleValue(Double doubleValue) {
         this.doubleValue = doubleValue;
     }
 
+    /**
+     * Get the float value of the number.
+     * @return The float value of the number.
+     */
     public Float getFloatValue() {
         return floatValue;
     }
 
+    /**
+     * Set the float value of the number.
+     * @param floatValue The new float number.
+     */
     public void setFloatValue(Float floatValue) {
         this.floatValue = floatValue;
     }
 
+    /**
+     * Check if the number is even.
+     * @return {@code boolean} True if the number is even.
+     */
     public boolean isEven() {
         return isEven;
     }
 
+    /**
+     * Set if the number's even value.
+     * @param even True if the number is even.
+     */
     public void setEven(boolean even) {
         isEven = even;
     }
-    
+
+    /**
+     * Check if the number is odd.
+     * @return {@code boolean} True if the number is odd.
+     */
     public boolean isOdd() {
         return isOdd;
     }
-    
+
+    /**
+     * Set if the number's odd value.
+     * @param odd True if the number is odd.
+     */
     public void setOdd(boolean odd) {
         isOdd = odd;
     }
