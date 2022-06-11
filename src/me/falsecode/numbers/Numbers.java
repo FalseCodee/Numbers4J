@@ -1046,4 +1046,12 @@ public enum Numbers {
     public void setEven(boolean even) {
         isEven = even;
     }
+    
+    public boolean isFalse() {
+        return !isEven;
+    }
+    
+    public void setOdd(boolean odd) {
+        isEven = !odd;
+    }
 }
