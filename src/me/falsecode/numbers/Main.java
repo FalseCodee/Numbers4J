@@ -4,12 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        printOutEnums(10001, 50000);
+        printOutEnums(1, 5000);
     }
 
     public static void printOutEnums(final int start, final int end) {
         for(int i = start; i < end+1; i++) {
-            System.out.println(integerToWords(i) + "(" + i + ", " + i + "D, " + i + "F, " + (i % 2 == 0) + "),");
+            System.out.println(integerToWords(i) + "(" + i + ", " + i + "D, " + i + "F, " + (i % 2 == 0) + ", "+ (i % 2 == 1) + "),");
         }
     }
 
